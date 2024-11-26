@@ -2,7 +2,7 @@
 #project h2 {
   font-size: 6rem; /* Tamaño de fuente grande para el título */
   text-align: center; /* Centra el texto horizontalmente */
-  padding: 2rem 0; /* Espaciado superior e inferior de 2rem */
+  padding: 2rem 0; /* Espaciado superior e inferior de 2rem */ 
 }
 
 /* Contenedor de los proyectos, utilizando un diseño de cuadrícula */

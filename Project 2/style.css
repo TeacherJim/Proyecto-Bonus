@@ -1,60 +1,77 @@
+/* Estilos globales para el HTML y el cuerpo del documento */
 html,
 body {
-  height: 100%;
-  margin: 0;
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  line-height: 1.8em;
-  color: #666;
+  height: 100%; /* Asegura que el documento ocupe toda la altura de la ventana */
+  margin: 0; /* Elimina el margen predeterminado */
+  font-size: 16px; /* Tamaño de fuente base */
+  font-family: "Lato", sans-serif; /* Fuente principal */
+  font-weight: 400; /* Peso de fuente normal */
+  line-height: 1.8em; /* Altura de línea */
+  color: #666; /* Color de texto */
 }
+
+/* Estilos para la primera imagen de fondo */
 .pimg1 {
-  background-image: url(images/image1.png);
-  min-height: 100%;
+  background-image: url(images/image1.png); /* Imagen de fondo */
+  min-height: 100%; /* Altura mínima del 100% de la ventana */
 }
+
+/* Estilos para la segunda imagen de fondo */
 .pimg2 {
-  background-image: url(images/image2.png);
-  min-height: 400px;
+  background-image: url(images/image2.png); /* Imagen de fondo */
+  min-height: 400px; /* Altura mínima de 400px */
 }
+
+/* Estilos para la tercera imagen de fondo */
 .pimg3 {
-  background-image: url(images/image3.png);
-  min-height: 400px;
+  background-image: url(images/image3.png); /* Imagen de fondo */
+  min-height: 400px; /* Altura mínima de 400px */
 }
+
+/* Estilos comunes para todas las imágenes de fondo */
 .pimg1,
 .pimg2,
 .pimg3 {
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  position: relative; /* Posición relativa para permitir posicionamiento absoluto de elementos hijos */
+  background-position: center; /* Centra la imagen de fondo */
+  background-size: cover; /* Escala la imagen de fondo para cubrir todo el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  background-attachment: fixed; /* Fija la imagen de fondo al viewport */
 }
 
+/* Estilos para el texto superpuesto en las imágenes */
 .ptext {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: black;
-  font-size: 27px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
-}
-.textBg {
-  background: #313534;
-  color: #fff;
-  padding: 20px;
+  position: absolute; /* Posiciona el texto de manera absoluta dentro del contenedor */
+  top: 50%; /* Centra verticalmente el texto */
+  width: 100%; /* Ancho completo */
+  text-align: center; /* Centra el texto horizontalmente */
+  color: black; /* Color del texto */
+  font-size: 27px; /* Tamaño de fuente */
+  letter-spacing: 8px; /* Espaciado entre letras */
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
 }
 
+/* Estilos para el fondo del texto */
+.textBg {
+  background: #313534; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 20px; /* Espaciado interno */
+}
+
+/* Estilos para las secciones */
 .section {
-  padding: 50px 80px;
-  text-align: center;
+  padding: 50px 80px; /* Espaciado interno */
+  text-align: center; /* Centra el texto */
 }
+
+/* Estilos para las secciones con fondo claro */
 .section-light {
-  background-color: #f4f4f4;
-  color: #666;
+  background-color: #f4f4f4; /* Color de fondo claro */
+  color: #666; /* Color del texto */
 }
+
+/* Estilos para las secciones con fondo oscuro */
 .section-dark {
-  background-color: #282e34;
-  color: #ddd;
+  background-color: #282e34; /* Color de fondo oscuro */
+  color: #ddd; /* Color del texto */
 }
